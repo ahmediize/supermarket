@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman';
+    box-sizing: border-box;
+}
+section{
+    background-color:rgb(179, 159, 179);
+    padding-top: 1%;
+    margin-top: 0px;
+}  
+.wrapper{
+  margin-top: 8%;
+}
+.wrapper h1{
+    font-family: Arial;
+    font-size: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding-bottom:5px;
+    color: yellow;
+}
+.wrapper h1:hover{
+    color:rgb(255, 0, 43);
+}
+.team{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 40px; 
+}
+.team .team_member{
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    font-family: 'Times New Roman';
+    position: relative;
+    bottom: 30px 
+}
+.team .team_member h2{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.team .team_member a{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.team .team_member .team_img {
+    top: -50px;
+    left: 110px;
+    transform: translateX(-50);
+}
+.team .team_member .team_img img{
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+    border-radius: 90px;
+}
